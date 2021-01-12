@@ -35,9 +35,9 @@ export default function Home() {
                         </a>
                     </Link>
 
-                    <Link href="/me">
+                    <Link href="/jobs/[job]" as="/jobs/1">
                         <a className={styles.card}>
-                            <h3>About Me &rarr;</h3>
+                            <h3>First job</h3>
                             <p>Discover and deploy boilerplate example Next.js projects.</p>
                         </a>
                     </Link>
