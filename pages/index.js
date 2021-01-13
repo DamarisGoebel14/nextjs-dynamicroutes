@@ -42,15 +42,14 @@ export default function Home() {
                         </a>
                     </Link>
 
-                    <a
-                        href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-                        className={styles.card}
-                    >
-                        <h3>Deploy &rarr;</h3>
+                    <Link href="/jobs/[job]" as="/jobs/2">
+                    <a className={styles.card}>
+                        <h3>Second job</h3>
                         <p>
                             Instantly deploy your Next.js site to a public URL with Vercel.
                         </p>
                     </a>
+                    </Link>
                 </div>
             </main>
 
